@@ -27,40 +27,43 @@
                     "name": "Left Community",
                     "type": "checkbox"
                 },
-                {
-                    "name": "Co-Op Nodes (Cubes are 2-5-8)",
-                    "type": "label",
-                    "align": "center",
-                    "col": 2
-                },
+               // {
+               //     "name": "Co-Op Nodes",
+               //     "type": "label",
+               //     "align": "center",
+               //     "col": 2
+              //  },
                 {
                     "name": "Auto High",
                     "type": "spinbox"
                 },
-                {
-                    "name": "Mid",
-                    "type": "togglegrid",
-                    "prefix": "Auto",
-                    "colspan": 3,
-                    "width": 9,
-                    "height": 1,
-                    "colors": [
-                        "black",
-                        "green"
-                    ]
-                },
-                {
-                    "name": "Hybrid Nodes",
-                    "type": "togglegrid",
-                    "prefix": "Auto",
-                    "width": 9,
-                    "height": 1,
-                    "colors": [
-                        "black",
-                        "yellow",
-                        "purple"
-                    ]
-                },
+                {   "name": "Auto Mid", "type": "spinbox"}
+                {   "name": "Auto Hybrid", "type": "spinbox"}
+
+              //  {
+                  //  "name": "Mid",
+                  // "type": "togglegrid",
+                  //  "prefix": "Auto",
+                  //  "colspan": 3,
+                  //  "width": 9,
+                  //  "height": 1,
+                  //  "colors": [
+                  //      "black",
+                  //      "green"
+                  //  ]
+              //  },
+               // {
+                  //  "name": "Hybrid Nodes",
+                  //  "type": "togglegrid",
+                  //  "prefix": "Auto",
+                  //  "width": 9,
+                  //  "height": 1,
+                  //  "colors": [
+                  //      "black",
+                  //      "yellow",
+                  //      "purple"
+                  //  ]
+                //},
                 {
                     "type": "spacer",
                     "height": 20
@@ -111,47 +114,11 @@
                     "type": "spacer",
                     "height": 20
                 },
-                {
-                    "name": "Co-Op Nodes (Cubes are 2-5-8)",
-                    "type": "label",
-                    "align": "center",
-                    "col": 2,
-                    "colspan": 3
-                },
-                {
-                    "name": "High",
-                    "type": "togglegrid",
-                    "colspan": 3,
-                    "width": 9,
-                    "height": 1,
-                    "colors": [
-                        "black",
-                        "green"
-                    ]
-                },
-                {
-                    "name": "Mid",
-                    "type": "togglegrid",
-                    "colspan": 3,
-                    "width": 9,
-                    "height": 1,
-                    "colors": [
-                        "black",
-                        "green"
-                    ]
-                },
-                {
-                    "name": "Hybrid Nodes",
-                    "type": "togglegrid",
-                    "colspan": 3,
-                    "width": 9,
-                    "height": 1,
-                    "colors": [
-                        "black",
-                        "yellow",
-                        "purple"
-                    ]
-                },
+                {"name": "Tele High","type": "spinbox"},
+                {"name": "Tele Mid", "type": "spinbox"},
+                {"name": "Tele Hybrid", "type": "spinbox"},
+               
+    
                 {
                     "name": "Defense Rating",
                     "type": "dropdown",
