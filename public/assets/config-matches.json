@@ -34,16 +34,8 @@
                     "col": 2
                 },
                 {
-                    "name": "High",
-                    "type": "togglegrid",
-                    "prefix": "Auto",
-                    "colspan": 3,
-                    "width": 9,
-                    "height": 1,
-                    "colors": [
-                        "black",
-                        "green"
-                    ]
+                    "name": "Auto High",
+                    "type": "spinbox"
                 },
                 {
                     "name": "Mid",
